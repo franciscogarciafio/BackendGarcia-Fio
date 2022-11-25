@@ -1,0 +1,8 @@
+[
+  {
+    "title": "camiseta de futbol",
+    "price": 32,
+    "thumbnail": "https://i.ibb.co/xDKrXct/camp2.png",
+    "id": 1
+  }
+]

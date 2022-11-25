@@ -1,0 +1,14 @@
+[
+  {
+    "title": "campera",
+    "price": 63,
+    "thumbnail": "https://i.ibb.co/xDKrXct/camp2.png",
+    "id": 1
+  },
+  {
+    "title": "pelota de futbol",
+    "price": 45,
+    "thumbnail": "https://i.ibb.co/xDKrXct/camp2.png",
+    "id": 2
+  }
+]

@@ -9,11 +9,9 @@ class Usuario{
 
         getFullName() {
             return `${this.nombre}` + " " + `${this.apellido}`;
-             
-        
+                   
         }
 
-        
         addMascota() {
             return (this.mascotas + " " + "elefante")
         }
@@ -28,10 +26,16 @@ class Usuario{
 }
 
 const Usuario1 = new Usuario("francisco","Garcia","harry Potter,narnia","perro,gato")
-const usuario2= new Usuario("maria","lopez","pricipito,metamorfosis","gato,perro,raton")
+const Usuario2= new Usuario("maria","lopez","pricipito,metamorfosis","gato,perro,raton")
 //console.log(Usuario1);
 
 console.log(Usuario1.getFullName());
 console.log(Usuario1.addMascota());
 console.log(Usuario1.CountMascotas());
 console.log(Usuario1.getbooknames());
+
+console.log(Usuario2.getFullName());
+console.log(Usuario2.addMascota());
+console.log(Usuario2.CountMascotas());
+console.log(Usuario2.getbooknames());
+
