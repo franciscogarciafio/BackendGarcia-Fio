@@ -78,27 +78,24 @@ class Contenedor {
   };
 }
 
-const item = {
+const item =[
+ {
   title: "pelota de futbol",
   price: 45.000,
-  thumbnail:
-  "https://i.ibb.co/xDKrXct/camp2.png",
-};
-
-const item1 = {
+  thumbnail:"https://i.ibb.co/xDKrXct/camp2.png",
+},
+ {
   title: "camiseta de futbol",
   price: 32.000,
   thumbnail:
   "https://i.ibb.co/xDKrXct/camp2.png",
-};
-
-const item2 = {
+},
+ {
   title: "campera",
   price: 63.000,
-  thumbnail:
-  "https://i.ibb.co/xDKrXct/camp2.png",
-};
-
+  thumbnail:"https://i.ibb.co/xDKrXct/camp2.png",
+}
+]
 const productos = new Contenedor("productos.txt");
 
 productos.save(item)
