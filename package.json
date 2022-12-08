@@ -19,7 +19,9 @@
   "homepage": "https://github.com/franciscogarciafio/BackendGarcia-Fio#readme",
   "description": "",
   "dependencies": {
+    "-": "^0.0.1",
     "express": "^4.18.2",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "y": "^0.3.2"
   }
 }
